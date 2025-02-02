@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.header img{
+    width: 100px;
+}
+
+.header ul{
+    display: flex;
+    gap: 70px;
+    font-size: 17px;
+    list-style: none;
+    margin-top: 20px;
+}
+.main-parent{
+    background-color: orangered;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: white;
+
+}
+.main-left{
+    width: 500px;
+
+}
+
+.main-right{
+    width: 400px;
+}
+.main-left iframe{
+    border-top: 20px;
+    width: 450px;
+    height: 300px;
+    border-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.main-left h1{
+    font-size: 60px;
+}
+.main-left a{
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
